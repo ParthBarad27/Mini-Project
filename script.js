@@ -258,6 +258,7 @@ function caesarDecrypt(text, shift) {
     return caesarEncrypt(text, 26 - (shift % 26));
 }
 
+// function to handle encryption
 function handleEncrypt() {
     const text = document.getElementById('encryptText').value;
     let shift = parseInt(document.getElementById('encryptKey').value) || 3;
@@ -281,3 +282,4 @@ function handleDecrypt() {
     resultText.textContent = caesarDecrypt(text, shift);
     resultDiv.classList.remove('hidden');
 }
+
