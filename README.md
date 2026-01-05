@@ -99,8 +99,6 @@ cd cyberguard
 # Simply open index.html in your web browser
 # Or use a local server:
 
-# Python
-python -m http.server 8000
 
 # Node.js (http-server)
 npx http-server
